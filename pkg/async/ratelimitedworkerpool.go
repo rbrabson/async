@@ -1,3 +1,9 @@
+// Package async implements utility routines for running tasks asynchronously.
+//
+// The async package provides different WorkerPool implementations. A WorkerPool
+// allows for a defined number of tasks to be run asynchronously. A rate-limited
+// WorkerPool also allows for a defined number of taks to be run asynchronously,
+// but also ensures there is a minimum amount of time between scheduling tasks.
 package async
 
 import (
