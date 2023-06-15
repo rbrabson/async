@@ -1,1 +1,3 @@
 # async
+
+Async provides a set of routines to limit the number of asynchronous tasks performed simultaneously. There are two options available, a *WorkerPool* and a *RateLimitedWorkerPool*. The WorkerPool limits the number of tasks that may be processed at one time, while the RateLimitedWorkerPool also includes a rate limit to ensure tasks are not processed more often than a minimum number of microsecends.
